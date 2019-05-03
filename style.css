@@ -1,39 +1,44 @@
 .navbar {
     background-color: #00B2F9;
 }
+
 .landing-page {
-    display:flex;
-    height:100vh;
-    justify-content:center;
-    flex-direction:column;
-    align-items:center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     background-image: url(images/background-landing.jpg);
     background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.text-center {
-    color:white;
-    font-size:64px;
-}
-.slogan {
 
+.text-center {
+    color: white;
+    font-size: 64px;
 }
+
 .fa-arrow-down {
-    font-size:60px;
+    font-size: 60px;
     position: absolute;
     bottom: 100px;
-    color:white;
-}
-.image {
-    height: 333px;
-    width:333px;
-    border-radius: 200px;
-}
-.image-landing {
-    border-radius:50%;
-    height:450px;
-    width:30%;
+    color: white;
 }
 
+.image {
+    height: 333px;
+    width: 333px;
+    border-radius: 200px;
+}
+
+.image-landing {
+    border-radius: 50%;
+    height: 450px;
+    width: 20%;
+}
+
+.caption{
+    
+}
