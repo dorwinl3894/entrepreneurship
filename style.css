@@ -1,7 +1,10 @@
 .navbar {
     background-color: #00B2F9;
+    height:80px;
 }
-
+.navbar-brand {
+    
+}
 .landing-page {
     display: flex;
     height: 100vh;
@@ -34,11 +37,12 @@
 }
 
 .image-landing {
+    width:50%;
+    height:300px;
     border-radius: 50%;
-    height: 450px;
-    width: 20%;
+    margin: 0px auto;
+}
+.image-caption {
+    color:#00B2F9;
 }
 
-.caption{
-    
-}
