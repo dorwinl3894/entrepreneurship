@@ -1,6 +1,11 @@
+html {
+   scroll-behavior: smooth;
+}
+
 .navbar {
     background-color: #00B2F9;
     height:80px;
+    opacity:0.75;
 }
 .navbar-brand {
     
@@ -46,3 +51,8 @@
     color:#00B2F9;
 }
 
+.header {
+    text-align: center;
+    font-size:50px;
+    color:green;
+}

@@ -10,6 +10,27 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    
+  <script>
+  $(function(){ 
+    $('h1').hover(function(){
+      $(this).css("text-shadow","2px 2px")
+      $(this).css("color","red")
+    },function(){
+      $(this).css("text-shadow","0px 0px")
+      $(this).css("color","black")
+    });
+    
+    $('nav').hover(function(){
+      $(this).css("opacity","1")
+    },function(){
+      $(this).css("opacity","0.75")
+    });
+      
+  });
+  </script>
+  
 </head>
 
 <body>
@@ -30,16 +51,16 @@
               </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Start</a>
+            <a class="nav-link" href="#start-section">Start</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Build</a>
+            <a class="nav-link" href="#build-section">Build</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Growth</a>
+            <a class="nav-link" href="#growth-section">Growth</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#contact-section">Contact</a>
           </li>
         </ul>
       </div>
@@ -54,7 +75,7 @@
   </div>
   
 
-  <div class="container-fluid">
+  <div class="container">
     <div class="row">
       <div class="col-xs-12">
         <h1 class="text-center" style="color:black">What is Entrepreneurship?</h1>
@@ -84,10 +105,10 @@
 
 
   <!-- The Start - First Section -->
-  <div class="container the-start">
+  <div class="container the-start" id="start-section">
     <div class="row">
       <div class="col-xs-12">
-        <h1 class="header">The Start</h1>
+        <h1 class="header" > >The Start</h1>
         <h2>A successful entrepreneur needs a plan to start his/her business.</h2>
       </div>
       <div class="col-xs-12 col-md-7 content">
@@ -120,7 +141,7 @@
 
   <!-- The Build - Second Section -->
 
-  <div class="container the-build">
+  <div class="container the-build" id="build-section">
     <div class="row">
       <div class="col-xs-12">
         <h1 class="header">The Build</h1>
@@ -149,7 +170,7 @@
     </div>
   </div>
 
-  <div class="container the-growth">
+  <div class="container the-growth" id="growth-section">
     <div class="row">
       <div class="col-xs-12">
         <h1 class="header">Growth</h1>
@@ -173,7 +194,7 @@
   </div>
 
 
-  <div class="comment-box">
+  <div class="comment-box" id="contact-section">
     <h3>Contact Us</h3>
     <!-- Start BawkBox Code-->
     <script data-sil-id="5ccc4363409aa90010e6b925">
