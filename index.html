@@ -5,32 +5,28 @@
   <meta charset="UTF-8">
   <title>title</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
   <script>
-  $(function(){ 
-    $('h1').hover(function(){
-      $(this).css("text-shadow","2px 2px")
-      $(this).css("color","red")
-    },function(){
-      $(this).css("text-shadow","0px 0px")
-      $(this).css("color","black")
+    $(function() {
+      $('h1').hover(function() {
+        $(this).css("text-shadow", "2px 2px")
+        $(this).css('color', "B6FDAE")
+      }, function() {
+        $(this).css("text-shadow", "0px 0px")
+        $(this).css("color", "B6FDAE")
+      });
+
+      $('nav').hover(function() {
+        $(this).css("opacity", "1")
+      }, function() {
+        $(this).css("opacity", "0.75")
+      });
+
     });
-    
-    $('nav').hover(function(){
-      $(this).css("opacity","1")
-    },function(){
-      $(this).css("opacity","0.75")
-    });
-      
-  });
   </script>
-  
+
 </head>
 
 <body>
@@ -38,7 +34,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
     <div class="container">
       <a class="navbar-brand" href="#">
-          <img src="images/arrow.png" alt="Logo">
+          <img id="nav-pic" src="images/arrow.png" alt="Logo">
         </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -73,32 +69,33 @@
     <h3 class="text-center slogan">Learn to build a business from scratch </h3>
     <i class="fas fa-arrow-down"></i>
   </div>
-  
+
 
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <h1 class="text-center" style="color:black">What is Entrepreneurship?</h1>
-        <h3 class="heading">Entrepreneurship is the honest living process of creating a small business into a successful one with a genius idea in order to make profit. Most famous and highly profitable companies began because an entrepreneur came up with a brilliant idea.</h3>
+        <h1 class="text-center" style="color:#00B2F9">What is Entrepreneurship?</h1>
+        <h3 class="heading" style="margin-bottom:75px">Entrepreneurship is the honest living process of creating a small business into a successful one with a genius idea in order to make profit. Most famous and highly profitable companies began because an entrepreneur came up with a brilliant idea.</h3>
       </div>
-      
+
       <div class="col-xs-12 col-md-4 text-center">
         <img class="image-landing" src="images/Steve.jpg" alt="stevejobs">
         <h3 class="image-caption">Example 1 : Steve Jobs, a co-founder of Apple Inc started his business in his garage, and it is now a multinational technology company making billions every year</h3>
       </div>
-      
+
       <div class="col-xs-12 col-md-4 text-center">
         <img class="image-landing" src="images/Daymond.jpg" alt="daymondjohn">
-        <h3 class="image-caption">Example 2 : Daymond John founded his company FUBU in his mother’s house in Queens in which he learned to sew hats in a way that no one has ever done before. His company is now worth more than a billion dollars and he holds a net worth of $250 million
-        dollars.</h3>
+        <h3 class="image-caption">Example 2 : Daymond John founded his company FUBU in his mother’s house in Queens in which he learned to sew hats in a way that no one has ever done before. His company is now worth more than a billion dollars and he holds a net worth of $250
+          million dollars.
+        </h3>
       </div>
-      
+
       <div class="col-xs-12 col-md-4 text-center">
         <img class="image-landing" src="images/Mark.jpg" alt="markzuckerberg">
-        <h3 class="image-caption">Example 3 : Mark Zuckerberg co-founded Facebook in his college dorm as a simple but genius idea of connecting college students together. Now, he has reshaped his company so that anybody has a space in Facebook and these ideas are what made him one
-        of the richest people in the world.</h3>
+        <h3 class="image-caption">Example 3 : Mark Zuckerberg co-founded Facebook in his college dorm as a simple but genius idea of connecting college students together. Now, he has reshaped his company so that anybody has a space in Facebook and these ideas are what made him
+          one of the richest people in the world.</h3>
       </div>
-      
+
     </div>
   </div>
 
@@ -108,13 +105,13 @@
   <div class="container the-start" id="start-section">
     <div class="row">
       <div class="col-xs-12">
-        <h1 class="header" > >The Start</h1>
+        <h1 class="header"> >The Start</h1>
         <h2>A successful entrepreneur needs a plan to start his/her business.</h2>
       </div>
       <div class="col-xs-12 col-md-7 content">
-        <h1>First, think about something that people will want to have.</h1>
-        <h2>Most successful entrepreneurs began their business because they realized something was missing in society. </h2>
-        <h2>You can ask yourself these questions to get started</h2>
+        <h1>Think about something that people will want to have.</h1>
+        <h2><br><br>Most successful entrepreneurs began their business because they realized something was missing in society. </h2>
+        <h2><br><br>You can ask yourself these questions to get started</h2>
         <ul>
           <li>“What does the world need that doesn’t exist yet?”</li>
           <li>"“Can ____ be made more efficiently?"</li>
@@ -143,8 +140,8 @@
 
   <div class="container the-build" id="build-section">
     <div class="row">
-      <div class="col-xs-12">
-        <h1 class="header">The Build</h1>
+      <div class="col-xs-12 col-md-12">
+        <h1 class="header"> >The Build</h1>
       </div>
       <div class="col-xs-12 col-md-7 content">
         <h1>Third, start building a prototype of your idea. </h1>
@@ -172,11 +169,11 @@
 
   <div class="container the-growth" id="growth-section">
     <div class="row">
-      <div class="col-xs-12">
-        <h1 class="header">Growth</h1>
+      <div class="col-xs-12 col-md-12">
+        <h1 class="header"> >Growth</h1>
       </div>
       <div class="col-xs-12 content">
-        <h1>Fifth. Depending on the type of business you have created, you might need to create inventory.</h1>
+        <h1>Depending on the type of business you have created, you might need to create inventory.</h1>
         <h2>Inventory is how much of your product you currently have on you ready to be shipped out. </h2>
         <h2>You will probably not need to create an inventory if your business does not require anything physical. (Examples : Mobile App, Videos, Software)</h2>
       </div>
@@ -224,6 +221,11 @@
   </div>
 
 
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 
 </html>
