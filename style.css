@@ -40,7 +40,12 @@ li {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.image-landing {
+    width:300px;
+    height:300px;
+    border-radius: 50%;
+    margin-bottom:30px;
+}
 .text-center {
     font-size: 64px;
 }
@@ -53,18 +58,12 @@ li {
 }
 
 .image {
-    height: 300px;
-    width: 300px;
+    height: 275px;
+    width: 275px;
     border: 5px solid black;
     outline: 5px solid green;
 }
 
-.image-landing {
-    width: 50%;
-    height: 200px;
-    border-radius: 50%;
-    margin: 20px auto;
-}
 
 .image-caption {
     color: black;
@@ -74,15 +73,21 @@ li {
 
 .header {
     text-align: center;
-    font-size: 50px;
+    font-size: 65px;
     color: green;
 }
 
-.title,
-.slogan {
+.title {
     color: #88C4FF;
+    font-family: 'PT Serif', serif;
+    font-size:140px;
 }
-
+.slogan {
+    font-family: "times new roman";
+    color: #88C4FF;
+    font-size:50px;
+    
+}
 .heading {
     line-height: 50px;
 }
@@ -115,5 +120,5 @@ h4{
 }
 
 @media (max-width:966px) {
-    
+
 }
